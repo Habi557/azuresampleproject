@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
 	@GetMapping("/")
 	public String login() {
+		
+		
 		return "Home";
 	}
 	
